@@ -275,6 +275,7 @@ footer {
     font-size: 1.5rem;
     letter-spacing: .2rem;
     border: none;
+    align-items: center;
 }
 
 .button:hover {
