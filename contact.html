@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,44 +9,70 @@
     <title>Cecilia Coutinho - Career Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    
+
 </head>
+
 <body>
     <div class="container">
 
         <nav class="main-nav">
-            <h1 class="logo">
+            <h2 class="logo">
                 <img src="images/icons-logo/logo-2.png" width="70" alt="CV">
-            </h1>
+            </h2>
             <ul class="main-nav-list">
-                <li class="main-nav-list-item"><a href="index.html" target="_blank">Profile</a></li>
-                <li class="main-nav-list-item"><a href="experience.html" target="_blank">Experience</a></li>
-                <li class="main-nav-list-item"><a href="skills.html" target="_blank">Skills</a></li>
-                <li class="main-nav-list-item"><a href="education.html" target="_blank">Education</a></li>
-                <li class="main-nav-list-item"><a href="contact.html" target="_blank">Contact</a></li>
+                <li class="main-nav-list-item"><a href="index.html">Profile</a></li>
+                <li class="main-nav-list-item"><a href="portfolio.html">Portfolio</a></li>
+                <li class="main-nav-list-item"><a href="career.html">Career</a></li>
+                <li class="main-nav-list-item"><a href="skills.html">Skills</a></li>
+                <li class="main-nav-list-item active"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
 
-        
+        <header class=" hero-contact"></header>
+
+
+        <main class="home-content home-main">
+
+            <article class="home-section-1">
+                <div class="init-content">
+                    <h1><b>Contact</b> Me</h1>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                </div>
+
+                <div class="contact-form box-form">
+                    <form action="/an-action.php" method="get" class="contact-form">
+                        <div class="contact-form">
+                            <label for="fname">Write your Name:</label>
+                            <input id="fname" placeholder="Your Name" required>
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="e-mail@email.com" required>
+                            <label for="message">Message:</label>
+                            <input type="text" placeholder="Write a Subject" class="inp-message" required>
+                            <textarea name="the-message" id="message" cols="30" rows="10" placeholder="Write your Message" required>
+                        </textarea>
+                            <input type="submit" name="submit-name" value="Submit" class="button">
+                        </div>
+                    </form>
+                </div>
+            </article>
+
+            <aside class="contact-aside">
+            </aside>
+        </main>
+
+
         <footer class="footer">
             <div class="bt">
                 <a href="https://www.linkedin.com/in/cecilia-coutinho
                 " target="_blank" class="linkedin-bt"><i class="fa fa-linkedin fa-2x"></i>/in/cecilia-coutinho</a>
-                <a href="./files-download/draft-cv.pdf" download target="_blank"><i class="fa fa-download fa-2x" aria-hidden="true"></i>Download CV</a>
-                <a href="https://github.com/" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i>cecilia-coutinho</a>
-<!--             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta voluptatibus quas consequuntur aut sit, expedita illo sed repudiandae provident repellat, dignissimos cum autem laboriosam dolores!</p>
- -->        </div>
+                <a href="./files-download/draft-cv.pdf" download target="_blank"><i class="fa fa-download fa-2x"
+                        aria-hidden="true"></i>Download CV</a>
+                <a href="https://github.com/" target="_blank"><i class="fa fa-github fa-2x"
+                        aria-hidden="true"></i>cecilia-coutinho</a>
+            </div>
         </footer>
-            
-<!--             <nav class="breadcrumb">
-            <ul class="breadcrumb-nav-list">
-                <li class="list-item"><a href="#" target="_blank">Profile</a></li>
-                <li class="list-item"><a href="#" target="_blank">Experience</a></li>
-                <li class="list-item"><a href="#" target="_blank">Skills</a></li>
-                <li class="list-item"><a href="#" target="_blank">Education</a></li>
-                <li class="list-item"><a href="#" target="_blank">Contact</a></li>
-            </ul>
-            </nav> -->
-        </div>
-    </body>
+
+    </div>
+</body>
+
 </html>
